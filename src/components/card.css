@@ -1,0 +1,26 @@
+.card {
+    width: 18rem;
+    font-size: 0.8rem;
+
+    background-size: cover;
+    border-radius: 10px;
+
+    transform:
+        rotate (20deg) skew(-10deg, -5deg);
+    
+    transition: 
+        translate 0.35s, box-shadow 0.25s;
+         /* transition: translate 0.25s, box-shadow 0.25s; */
+}
+
+    .card:hover {
+        translate: 0 -30px;
+        box-shadow:
+            5px 3px rgb (217 220 242 / 75%), 10px 6px rgb (44 217 255 / 50%) 15px 9px rgb (126 255 178 / 25%);
+
+    }
+
+.btn{
+    background-color:#6A6AD9;
+    color: #fff;
+}    
